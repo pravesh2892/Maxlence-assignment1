@@ -1,0 +1,59 @@
+
+  
+  .error_msg {
+	color: #ff0000;
+	text-align: center;
+  }
+  
+  
+  .userlist h2{
+   text-align: center;
+   color: #3bb19b;
+   margin-top: 10px;
+   margin-bottom: 10px;
+  }
+  .users_table {
+	width: 80%;
+	margin: 0 auto;
+	border-collapse: collapse;
+  }
+  
+  .users_table th,
+  .users_table td {
+	border: 1px solid #ddd;
+	color: black;
+	padding: 8px;
+	text-align: center;
+  }
+  
+  .users_table th {
+	background-color: #58b2a2;
+	color: white;
+  }
+  
+  .green_btn {
+  
+	border: none;
+	outline: none;
+	padding: 12px 0;
+	background-color: rgb(58, 216, 179);
+	border-radius: 20px;
+	width: 180px;
+	font-weight: bold;
+	font-size: 14px;
+	margin-top: 10px;
+    margin-left: 550px;
+	cursor: pointer;
+}
+ 
+@media only screen and (max-width: 768px) {
+	.users_table {
+	  width: 100%; 
+	}
+  
+	.green_btn {
+	  margin: 10px auto; 
+	  margin-left: auto;
+	  margin-right: auto;
+	}
+  }
